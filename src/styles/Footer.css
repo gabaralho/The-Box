@@ -1,0 +1,75 @@
+#footer {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+}
+#infos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.infos_text {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #292e3d;
+}
+
+#news_social {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+#newsletter_form {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #292e3d;
+  display: flex;
+  flex-direction: column;
+}
+
+#email_input {
+  height: 2rem;
+  width: 16rem;
+  margin-top: 0.4rem;
+  padding: 0.4rem;
+  border: 1px solid #292e3d;
+}
+
+#socials_text {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #292e3d;
+}
+
+.subscribe_button {
+  margin-top: 0.4rem;
+  height: 2.4rem;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  background-color: #f9995d;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.subscribe_button:hover {
+  color: aliceblue;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari 3-8 */
+  transform: scale(1.02);
+  transition: 0.2s;
+}

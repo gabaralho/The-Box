@@ -1,0 +1,56 @@
+#header {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  height: 5rem;
+  width: 100vw;
+  z-index: 2;
+  filter: drop-shadow(0 0.5px 0.5rem rgba(20, 20, 20, 0.5));
+}
+#header_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+#header_logo_image {
+  height: 2rem;
+  width: auto;
+}
+
+#header_logo_name {
+  font-family: "Work Sans";
+  font-style: italic;
+  font-size: 1.8rem;
+  color: #2947a9;
+}
+
+#header_list {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+#header_list a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #14171f;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.header_list_li > #orange {
+  color: #f9995d;
+}

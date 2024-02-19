@@ -1,0 +1,76 @@
+#second_section {
+  height: 30vh;
+  width: 100vw;
+  background-color: black;
+}
+
+#second_section_image {
+  height: 100%;
+  width: 100vw;
+  object-fit: cover;
+  opacity: 0.4;
+  filter: blur(2px);
+}
+
+#second_section_contact {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 11rem;
+  padding: 0rem 6rem;
+}
+
+#second_section_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#second_section_title {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#second_section_text {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+#second_section_text strong {
+  text-decoration: underline;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#second_section_text strong:hover {
+  color: chocolate;
+  transition: 0.3s;
+}
+
+.consultation_button {
+  border: 3px solid white;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  border-radius: 0.8rem;
+  transition: 0.2s;
+}
+
+.consultation_button:hover {
+  background-color: rgba(222, 222, 222, 0.111);
+  transition: 0.2s;
+}
+
+.consultation_button a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+}

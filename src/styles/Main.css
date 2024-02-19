@@ -1,0 +1,24 @@
+#main_container {
+  padding-top: 5rem;
+}
+
+#main_container_background {
+  background-image: url("https://primestone.com/wp-content/uploads/2020/04/Smart-Buildings-1-980x654.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+  opacity: 0.4;
+  height: 80vh;
+  width: 100vw;
+}
+
+#main_container_title {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 4.2rem;
+  color: #292e3d;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 15%;
+}

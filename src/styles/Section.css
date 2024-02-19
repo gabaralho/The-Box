@@ -1,0 +1,80 @@
+@media (max-width: 1440px) {
+  #first_section_title {
+    display: none;
+  }
+}
+
+#first_section {
+  z-index: 1;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+#first_section_arrow {
+  color: #292e3d;
+  transition: 0.3s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+#first_section_title {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 2.8rem;
+  color: #292e3d;
+}
+
+#first_section_reputation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.reputation_square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid rgb(226, 226, 226);
+  height: 16rem;
+  width: 28rem;
+  padding: 2rem 2rem;
+  gap: 1rem;
+}
+
+.reputation_square svg {
+  height: 2.4rem;
+  width: auto;
+  color: #f9995d;
+}
+
+.square_title {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #292e3d;
+}
+
+.square_text {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #4e5774;
+}
